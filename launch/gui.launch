@@ -1,4 +1,4 @@
 <launch>
     <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"></include>
-    <node name="gui" pkg="teleop-training" type="gui.py" cwd="node"/>
+    <node name="gui" pkg="teleop-training" type="gui.sh" cwd="node"/>
 </launch>
