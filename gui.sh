@@ -2,7 +2,7 @@
 
 if [ ! -d "./node_modules/" ] 
 then
-    yarn install
+    yarnpkg install
 fi
 
-yarn run serve
+yarnpkg run serve
